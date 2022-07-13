@@ -1,0 +1,45 @@
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Weather App</title>
+		<!-- CSS only -->
+		{{>link}}
+	</head>
+	<body>
+		 {{>navbar}}
+
+		<!-- main header -->
+		<div class="container-fluid main_header">
+			<div class="row">
+				<div class="col-md-10 col-12 mx-auto">
+					<div class="row">
+						<!-- left side div -->
+						<div class="col-md-6 col-12 main_header_right align-items-center">
+							<figure>
+								<img src="images/about.png" alt="IMRAN" class="img-fluid" />
+							</figure>
+						</div>
+						<div class="col-md-6 col-12 main_header_left">
+							<p>Welcome to Weather App</p>
+							<h1>
+								I am a
+								<span class="text-clr"> MERN stack developer </span>
+								and I work as a freelancer
+							</h1>
+							<a href="/weather"><button>About Me</button></a>
+						</div>
+						<!-- right side div -->
+					</div>
+				</div>
+			</div>
+		</div>
+
+		<!-- footer code -->
+		{{>footer}}
+
+		<!-- JavaScript Bundle with Popper -->
+		{{>script}}
+	</body>
+</html>
